@@ -51,7 +51,7 @@ public class Parser {
     static {
         final String DEFAULT_TIMEOUT_VALUE_PROPERTY =
             "org.ops4j.pax.exam.raw.extender.intern.Parser.DEFAULT_TIMEOUT";
-        final int DEFAULT_TIMEOUT_VALUE = 10000;
+        final int DEFAULT_TIMEOUT_VALUE = 500000;
         DEFAULT_TIMEOUT = Long.getLong(DEFAULT_TIMEOUT_VALUE_PROPERTY, DEFAULT_TIMEOUT_VALUE);
         LOG.info("Use timeout value: {}", DEFAULT_TIMEOUT);
     }
